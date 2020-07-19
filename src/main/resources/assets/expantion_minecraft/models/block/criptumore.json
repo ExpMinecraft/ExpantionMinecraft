@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "expantion_minecraft:blocks/minecrai_criptum",
+    "up": "expantion_minecraft:blocks/minecrai_criptum",
+    "north": "expantion_minecraft:blocks/minecrai_criptum",
+    "east": "expantion_minecraft:blocks/minecrai_criptum",
+    "south": "expantion_minecraft:blocks/minecrai_criptum",
+    "west": "expantion_minecraft:blocks/minecrai_criptum",
+    "particle": "expantion_minecraft:blocks/minecrai_criptum"
+  }
+}

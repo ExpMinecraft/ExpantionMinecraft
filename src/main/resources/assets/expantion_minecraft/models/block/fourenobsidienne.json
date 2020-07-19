@@ -3,8 +3,8 @@
   "textures": {
     "down": "expantion_minecraft:blocks/renforced_obsidian",
     "up": "expantion_minecraft:blocks/renforced_obsidian",
-    "north": "expantion_minecraft:blocks/obsidian_furnace",
-    "east": "expantion_minecraft:blocks/renforced_obsidian",
+    "north": "expantion_minecraft:blocks/renforced_obsidian",
+    "east": "expantion_minecraft:blocks/obsidian_furnace",
     "south": "expantion_minecraft:blocks/renforced_obsidian",
     "west": "expantion_minecraft:blocks/renforced_obsidian",
     "particle": "expantion_minecraft:blocks/renforced_obsidian"

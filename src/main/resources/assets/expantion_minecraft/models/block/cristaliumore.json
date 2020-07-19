@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "expantion_minecraft:blocks/minerai_de_cristal",
+    "up": "expantion_minecraft:blocks/minerai_de_cristal",
+    "north": "expantion_minecraft:blocks/minerai_de_cristal",
+    "east": "expantion_minecraft:blocks/minerai_de_cristal",
+    "south": "expantion_minecraft:blocks/minerai_de_cristal",
+    "west": "expantion_minecraft:blocks/minerai_de_cristal",
+    "particle": "expantion_minecraft:blocks/minerai_de_cristal"
+  }
+}

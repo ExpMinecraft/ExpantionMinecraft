@@ -11,6 +11,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.expantionminecraft.item.ObsidianingotItem;
 import net.mcreator.expantionminecraft.block.RenforcedObsidianBlock;
@@ -20,26 +21,26 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @ExpantionMinecraftModElements.ModElement.Tag
-public class ObsidianfurnaceprocedureProcedure extends ExpantionMinecraftModElements.ModElement {
-	public ObsidianfurnaceprocedureProcedure(ExpantionMinecraftModElements instance) {
-		super(instance, 6);
+public class FourenobsidienneUpdateTickProcedure extends ExpantionMinecraftModElements.ModElement {
+	public FourenobsidienneUpdateTickProcedure(ExpantionMinecraftModElements instance) {
+		super(instance, 9);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure Obsidianfurnaceprocedure!");
+			System.err.println("Failed to load dependency x for procedure FourenobsidienneUpdateTick!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure Obsidianfurnaceprocedure!");
+			System.err.println("Failed to load dependency y for procedure FourenobsidienneUpdateTick!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure Obsidianfurnaceprocedure!");
+			System.err.println("Failed to load dependency z for procedure FourenobsidienneUpdateTick!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure Obsidianfurnaceprocedure!");
+			System.err.println("Failed to load dependency world for procedure FourenobsidienneUpdateTick!");
 			return;
 		}
 		int x = (int) dependencies.get("x");
@@ -104,7 +105,7 @@ public class ObsidianfurnaceprocedureProcedure extends ExpantionMinecraftModElem
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(ObsidianingotItem.block, (int) (1))
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(Blocks.DIAMOND_ORE, (int) (1))
 						.getItem())) || ((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -116,8 +117,8 @@ public class ObsidianfurnaceprocedureProcedure extends ExpantionMinecraftModElem
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
-								.getItem() == new ItemStack(ObsidianingotItem.block, (int) (1)).getItem()))))) {
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(Blocks.DIAMOND_ORE, (int) (1))
+								.getItem()))))) {
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
@@ -150,7 +151,7 @@ public class ObsidianfurnaceprocedureProcedure extends ExpantionMinecraftModElem
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (2);
-					final ItemStack _setstack = new ItemStack(ObsidianingotItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(Blocks.DIAMOND_ORE, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);

@@ -56,13 +56,46 @@
       "registry_name": "obsidianfurnace"
     },
     {
-      "name": "Obsidianfurnaceprocedure",
+      "name": "FourenobsidienneOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "obsidianfurnaceprocedure",
+      "registry_name": "fourenobsidienne_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FourenobsidienneUpdateTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fourenobsidienne_update_tick",
       "metadata": {
         "dependencies": [
           {
@@ -83,20 +116,64 @@
           }
         ]
       }
+    },
+    {
+      "name": "Criptumore",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "criptumore"
+    },
+    {
+      "name": "Criptumingot",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "criptumingot"
+    },
+    {
+      "name": "Cristaliumore",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cristaliumore"
+    },
+    {
+      "name": "Cristallium",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cristallium"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.expantion_minecraft.criptumingot": "Criptumingot",
       "block.expantion_minecraft.fourenobsidienne": "Fourenobsidienne",
+      "block.expantion_minecraft.criptumore": "Criptumore",
+      "block.expantion_minecraft.cristaliumore": "Cristaliumore",
       "item.expantion_minecraft.obsidianingot": "Obsidianingot",
-      "block.expantion_minecraft.renforced_obsidian": "Renforced Obsidian"
+      "block.expantion_minecraft.renforced_obsidian": "Renforced Obsidian",
+      "item.expantion_minecraft.cristallium": "Cristallium"
     },
     "fr_fr": {
+      "item.expantion_minecraft.criptumingot": "Criptumingot",
       "block.expantion_minecraft.fourenobsidienne": "Fourenobsidienne",
+      "block.expantion_minecraft.criptumore": "Criptumore",
+      "block.expantion_minecraft.cristaliumore": "Cristaliumore",
       "item.expantion_minecraft.obsidianingot": "Obsidianingot",
-      "block.expantion_minecraft.renforced_obsidian": "Renforced Obsidian"
+      "block.expantion_minecraft.renforced_obsidian": "Renforced Obsidian",
+      "item.expantion_minecraft.cristallium": "Cristallium"
     }
   },
   "workspaceSettings": {
