@@ -1,0 +1,82 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 336,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 336,
+          "y": 168
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "name": "Slot #2",
+          "x": 480,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Obsidian Furnace",
+          "color": {
+            "value": -16777165,
+            "falpha": 0.0
+          },
+          "name": "Obsidian Furnace",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace_gui_2.1.png",
+          "name": "furnace_gui_2.1.png",
+          "x": 390,
+          "y": 42
+        }
+      }
+    ]
+  }
+}

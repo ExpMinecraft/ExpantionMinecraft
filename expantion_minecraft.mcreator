@@ -1,0 +1,119 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Obsidianingot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianingot"
+    },
+    {
+      "name": "Lingotdobsidienne",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotdobsidienne"
+    },
+    {
+      "name": "RenforcedObsidian",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_obsidian"
+    },
+    {
+      "name": "RenforceObsidian",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforce_obsidian"
+    },
+    {
+      "name": "Fourenobsidienne",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fourenobsidienne"
+    },
+    {
+      "name": "Obsidianfurnace",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianfurnace"
+    },
+    {
+      "name": "Obsidianfurnaceprocedure",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianfurnaceprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.expantion_minecraft.fourenobsidienne": "Fourenobsidienne",
+      "item.expantion_minecraft.obsidianingot": "Obsidianingot",
+      "block.expantion_minecraft.renforced_obsidian": "Renforced Obsidian"
+    },
+    "fr_fr": {
+      "block.expantion_minecraft.fourenobsidienne": "Fourenobsidienne",
+      "item.expantion_minecraft.obsidianingot": "Obsidianingot",
+      "block.expantion_minecraft.renforced_obsidian": "Renforced Obsidian"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "expantion_minecraft",
+    "modName": "Expantion Minecraft",
+    "version": "1.0.0",
+    "author": "famille, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.expantionminecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

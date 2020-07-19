@@ -1,0 +1,42 @@
+{
+  "group": "expantion_minecraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "1": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "2": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "3": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "4": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "5": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "6": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "7": {
+      "item": "expantion_minecraft:obsidianingot"
+    },
+    "8": {
+      "item": "expantion_minecraft:obsidianingot"
+    }
+  },
+  "result": {
+    "item": "expantion_minecraft:renforced_obsidian",
+    "count": 1
+  }
+}
